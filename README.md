@@ -45,8 +45,8 @@ function App() {
 
 ## 📖 文档
 
-- [快速开始](guide/) - 安装和基础使用
-- [API 参考](api/) - 完整的属性和方法文档
+- [快速开始](docs/index.md) - 安装和基础使用
+- [API 参考](docs/api/index.md) - 完整的属性和方法文档
 
 ## 🌐 浏览器支持
 
