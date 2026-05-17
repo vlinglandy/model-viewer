@@ -1,0 +1,20 @@
+{
+  "name": "cheese-3d-viewer",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "pnpm --filter @cheese/model-viewer build",
+    "dev:demo": "pnpm --filter demo dev",
+    "dev:docs": "pnpm --filter docs dev",
+    "test": "pnpm --filter @cheese/model-viewer test"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5",
+    "vite": "^5.2.8"
+  },
+  "workspaces": [
+    "packages/*",
+    "demo",
+    "docs"
+  ]
+}

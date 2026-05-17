@@ -1,0 +1,34 @@
+{
+  "name": "@cheese/model-viewer",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./dist/model-viewer.cjs",
+  "module": "./dist/model-viewer.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/model-viewer.js",
+      "require": "./dist/model-viewer.cjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@google/model-viewer": "^3.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.4.2",
+    "@testing-library/react": "^14.2.2",
+    "@types/react": "^18.2.74",
+    "@types/react-dom": "^18.2.24",
+    "@vitejs/plugin-react": "^4.2.1",
+    "jsdom": "^29.1.1",
+    "vitest": "^1.5.0"
+  }
+}
